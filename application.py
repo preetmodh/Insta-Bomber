@@ -1,7 +1,9 @@
 from flask import Flask,request,render_template
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 from time import sleep
+driver = webdriver.Chrome(ChromeDriverManager().install())
 app = Flask(__name__, template_folder='template')
 @app.route("/")
 def index():
