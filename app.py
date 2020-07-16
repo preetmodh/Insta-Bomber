@@ -10,7 +10,8 @@ chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-dev-shm-usage")
 chrome_options.add_argument("--no-sandbox")
 driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
-
+driver.get("http://www.instagram.com")
+sleeep(10)
 # Now you can start using Selenium
 app = Flask(__name__, template_folder='template')
 @app.route("/")
@@ -24,7 +25,6 @@ def do():
     Messages=request.form.get("message")
     n=request.form.get("number")
     TO_Whom=request.form.get("username2")
-    driver = webdriver.Chrome()
     driver.get("http://www.instagram.com")
     
     
