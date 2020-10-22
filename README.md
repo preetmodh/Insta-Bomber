@@ -1,5 +1,5 @@
-# insta-bomber
-This application let's spam messages people on instagram any number of times.\
+# Insta-Bomber
+This application let's spam messages people on instagram any number of times.
 ## Requirements:
 * Flask installed
 * Updated chromeium driver
