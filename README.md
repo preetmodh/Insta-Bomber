@@ -1,2 +1,2 @@
 # insta-bomber
-This application let message people on instagram number of times
+This application let's spam messages people on instagram any number of times
