@@ -1,5 +1,5 @@
 # insta-bomber
-This application let's spam messages people on instagram any number of times.\
+This application let's spam messages people on instagram any number of times.\\
 Requirements:
 * Updated chromeium driver
 * Your username and password
