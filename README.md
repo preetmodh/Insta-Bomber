@@ -12,3 +12,4 @@ This application let's spam messages people on instagram any number of times.
 3. Type **flask run**
 
 The server will start and copy the server link in chrome and enter the details.
+
