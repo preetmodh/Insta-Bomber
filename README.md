@@ -1,5 +1,5 @@
 # Insta-Bomber
-This application let's spam messages people on instagram any number of times.
+This application uses selenium a python module to let user spam messages people on instagram any number of times.
 ## Requirements:
 * Flask installed
 * Updated chromeium driver
